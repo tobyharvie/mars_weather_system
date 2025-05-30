@@ -1,0 +1,46 @@
+.weather-card {
+  background-color: rgba(213, 176, 160, 0.8);
+  padding: 1rem;
+  border-radius: 12px;
+  width: 140px;
+  height: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.weather-card.today {
+  width: 160px;
+  margin: 20px;
+  transform: scale(1.2);
+}
+
+.historic-label {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #523b3b;
+}
+
+.today-label {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #070707;
+}
+
+.forecast-label {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #da1b1b;
+}
+
+.sol-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.weather-data {
+  font-size: 1.1rem;
+}
+
+
