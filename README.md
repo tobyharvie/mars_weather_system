@@ -1,12 +1,3 @@
-# React + Vite
+In this project I underwent full-stack development of a responsive React.js app using Vite and Tailwind CSS to display weather data from Mars’ Elysium Planatia retrieved from NASA’s InSight API. In the backend I also included temperature forecasting functionality in Python, by first training a time series machine learning model using web-scraped historical data. This was a personal project done to develop and test my skills. Unfortunately, the Mars InSight lander stopped transmitting data in 2021, so the website does not provide completely live data. However, it is a proof of concept and functions as if the latest data retrieved is from the present. Development was done using Flask’s development server and React’s build output server. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+See the [report](/mars-weather-app-report.pdf) for a description of challenges and an image of the site.
